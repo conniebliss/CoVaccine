@@ -126,6 +126,31 @@ main .img {
 main .img img {
   width: 100%;
 }
+/* scroll to top icon */
+.scroll-to-top {
+  /* font-size: 50px;
+  color: black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px; */
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: var(--primary);
+  border-radius: 50%;
+  border: none;
+  color: var(--light);
+  font-size: 24px;
+  padding: 10px 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  display: none;
+}
+
+.scroll-to-top:hover {
+  background-color: var(--primary-shade);
+}
 
 /* about section */
 .about {
@@ -339,4 +364,58 @@ main .img img {
   width: 16px;
   margin-right: 8px;
   color: var(--primary);
+}
+
+/* FOOTER */
+.topFooter {
+  background-color: var(--secondary);
+  color: var(--light);
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 90px;
+}
+.logoAndText {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.topFooter .brand {
+  font-size: 24px;
+  font-weight: 700;
+}
+footer,
+.topFooter a,
+.bottomFooter a {
+  color: var(--light);
+}
+.topFooter a:hover {
+  color: var(--primary);
+  transition: 0.4s ease;
+}
+.topFooter ul {
+  width: 27%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 40px;
+}
+.bottomFooter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--dark);
+  padding: 0px 90px;
+  height: 80px;
+}
+.creator {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+.termAndPolicy {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
 }

@@ -9,6 +9,7 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body>
     <!-- header -->
@@ -46,6 +47,10 @@
         </div>
       </div>
     </main>
+    <!-- scroll to top icon -->
+    <button class="scroll-to-top" id="scroll-to-top">
+      <i class="bx bx-chevron-up"></i>
+    </button>
     <!-- about section -->
     <section id="about" class="about">
       <div class="container">
@@ -161,7 +166,7 @@
           <h3>Contact Us</h3>
         </div>
         <div class="content">
-          <form action="#">
+          <form action="#" id="contact-form">
             <div class="form-group">
               <label for="email">Email</label>
               <input type="email" />
@@ -188,5 +193,50 @@
       </div>
     </section>
     <!--  footer -->
+    <footer>
+      <!-- <div class="generalContainer"> -->
+
+      <div class="topFooter">
+        <div class="logoAndText">
+          <a href="#" class="brand">CoVaccine</a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet,
+            adipisci.
+          </p>
+        </div>
+        <ul>
+          <h3>Navigation</h3>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#Services">Service</a></li>
+          <li><a href="#Blogs">Blog</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <ul>
+          <h3>Social</h3>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Linkedin</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+        <ul>
+          <h3>Help & Support</h3>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">How it works?</a></li>
+          <li><a href="#">Customer Service</a></li>
+        </ul>
+      </div>
+      <div class="bottomFooter">
+        <div class="creator">
+          <p>&copy; LadyZee</p>
+        </div>
+        <div class="termAndPolicy">
+          <a href="#">Terms</a>
+          <a href="#">Privacy policy</a>
+        </div>
+      </div>
+      <!-- </div> -->
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
